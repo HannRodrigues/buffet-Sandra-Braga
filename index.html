@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/estilos.css">
     <link rel="stylesheet" href="./src/css/scrollbar.css">
+    <link rel="stylesheet" href="./src/css/crossfade.css">
 </head>
 
 <body>
@@ -29,7 +30,15 @@
             <button class="btn pratos" onclick="location.href='./pratos.html'" type="button">Pratos</button>
             <button class="btn promocoes" onclick="location.href='./promocoes.html'" type="button">Promoções</button>
             <button class="btn orcamento" onclick="location.href='./orcamento.html'" type="button">Orçamento</button>
+       
+            <div class="whatstopo">
+                <a href="https://wa.me/553195116880" target="_blank">
+                    <img src="./src/imagens/whatss.png" width="70" alt="WhatsLogo" title="Fale conosco pelo Whatsapp">
+               </a>
+           </div>
+           
         </div>
+       
     </header>
     <main>
         <div class="destaque">
@@ -161,39 +170,38 @@
             </ul>
 
         </div>
+      
 
         <div class="exibicao">
-            <h3> VEJA UM POUCO DOS NOSSOS EVENTOS</h3>
-          <div class="container">
-          
-                <figure id="img1">
-                 <img src="./src/imagens/casamento2.jpeg" alt="Casamento">
-                </figure>
-            
-                <figure id="img2">
-                    <img src="./src/imagens/casamento.jpeg" alt="Casamento">
-                   </figure>
-                  <div class="linhaDireita"></div>
-                  
-                      <p>Casamentos</p>
-            </div>
-             
-          <div class="linhaDireita2"></div>
-         
-            <div class="container2">
-          
-                <figure id="img3">
-                 <img src="./src/imagens/aniversario.jpeg" alt="Aniversário">
-                </figure>
-            
-                <figure id="img4">
-                    <img src="./src/imagens/aniversario2.jpeg" alt="Aniversário">
-                   </figure>
-                   <p>Aniversários</p>
-            </div>
-        </div>
-    </main>
 
+            <h3> VEJA UM POUCO DOS NOSSOS EVENTOS</h3>
+
+            <div id="slider">
+                <img class="selected" src="./src/imagens/casamento.jpeg" alt="Image1">
+                <img src="./src/imagens/casamento2.jpeg" alt="Image2">
+                <img src="./src/imagens/aniversario.jpeg" alt="Image3">
+                <img src="./src/imagens/aniversario2.jpeg" alt="Image4"> 
+
+                    <p>CASAMENTOS, ANIVERSÁRIOS, BREAKFAST...</p>
+              
+          </div>
+              
+      </div>
+       
+          
+      <div class="contato">
+          <h3>Contato</h3>
+           <p> Para contactar nossos serviços basta entrar em contato pelo Whatsapp..</p>
+            
+     </div>
+      <div class="whats">
+          <a href="https://wa.me/553195116880" target="_blank">
+              <img src="./src/imagens/whatss.png" width="70" alt="WhatsLogo" title="Fale conosco pelo Whatsapp">
+         </a>
+     </div>
+        <script src="./src/js/script.js"></script>
+    </main>
+    
 </body>
 
 </html>
